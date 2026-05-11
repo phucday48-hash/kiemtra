@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial;
+        }
+
+        body {
+            background: #dcdcdc;
+        }
+
+        .menu {
+            background: #0b7d5c;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+            .menu a {
+                color: blue;
+                margin: 0 40px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+        .banner {
+            display: flex;
+            background: #eee;
+            padding: 30px; 
+            align-items: center; 
+        }
+
+        .banner-left {
+            width: 40%;
+        }
+
+            .banner-left img {
+                width: 100%;
+                height: auto;
+            }
+
+        .banner-right {
+            width: 60%;
+            padding: 40px; 
+            background: #cfd8dc;
+        }
+
+            .banner-right h1 {
+                font-size: 42px;
+                color: #2f5d62;
+                margin-bottom: 15px;
+            }
+
+            .banner-right h3 {
+                font-size: 22px;
+                margin-bottom: 15px;
+            }
+
+            .banner-right p {
+                font-size: 16px;
+                line-height: 1.6;
+            }
+
+            .banner-right button {
+                margin-top: 25px;
+                padding: 12px 28px;
+                font-size: 15px;
+                border: 1px solid black;
+                background: white;
+                cursor: pointer;
+            }
+
+                .banner-right button:hover {
+                    background: black;
+                    color: white;
+                }
+
+        .title {
+            text-align: center;
+            font-size: 28px;
+            margin: 20px 0;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+            padding: 0 20px;
+        }
+
+        .product {
+            background: #ccc;
+            text-align: center;
+            padding: 10px;
+        }
+
+            .product img {
+                width: 100%;
+                height: 800px;
+                object-fit: cover;
+            }
+
+            .product p {
+                margin-top: 5px;
+                font-size: 14px;
+            }
+
+        .map {
+            margin: 100px 100px;
+        }
+
+            .map img {
+                width: 100%;
+                height: 100%;
+            }
+
+        .footer {
+            text-align: center;
+            padding: 15px;
+            color: green;
+        }
+        a:link {
+            color: blue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: blue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        .banner-right h1 {
+            color: black;
+            transition: 0.3s;
+        }
+
+            .banner-right h1:hover {
+                color: red;
+            }
+            .nenmaunau{
+                background-color:brown;
+                height:40px;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                color:white;
+            }
+    </style>
+
+</head>
+
+<body>
+    <div class="nenmaunau"> </div>
+    <div class="menu">
+        <a href="#">HOME</a>
+        <a href="#">MEN</a>
+        <a href="#">WOMAN</a>
+        <a href="#">KIDS</a>
+        <a href="#">CONTACT</a>
+    </div>
+
+    <div class="banner">
+        <div class="banner-left">
+            <img src="hinh/banner_img.jpg">
+        </div>
+
+        <div class="banner-right">
+            <h1 style="color:forestgreen"> <a  href="#"> Smart But Casual</a></h1>
+            <h3> <b><a href="#">Start your shopping here...</a></b></h3>
+            <p>
+                Pellentesque neque leo, dictum sit amet accumsan non, dignissim ac mauris. Mauris <br />
+                rhoncus, lectus tincidunt tempus aliquam, odio libero tincidunt metus, sed euismod elit <br />
+                enim ut mi. Nulla porttitor et dolor sed condimentum. Praesent porttitor lorem dui, in <br />
+                pulvinar enim rhoncus vitae. Curabitur tincidunt, turpis ac lobortis hendrerit, ex elit <br />
+                vestibulum est, at faucibus erat ligula non neque. Pellentesque neque leo, dictum sit <br />
+                amet accumsan non, dignissim ac mauris. Mauris rhoncus, lectus tincidunt tempus <br />
+                aliquam, odio libero tincidunt metus, sed euismod elit enim ut mi. Nulla porttitor et <br />
+                dolor sed condimentum. Praesent porttitor lorem dui, in pulvinar enim rhoncus vitae. <br />
+                Curabitur tincidunt, turpis ac lobortis hendrerit, ex elit vestibulum est, at faucibus erat <br />
+                ligula non neque.
+            </p>
+            <button>SHOP COLLECTION NOW</button>
+        </div>
+    </div>
+
+
+    <div class="title">Latest Products</div>
+
+    <div class="products">
+        <div class="product"><img src="hinh/l2.jpg"><p>Neque porro</p></div>
+        <div class="product"><img src="hinh/l4.jpg"><p>Neque porro</p></div>
+        <div class="product"><img src="hinh/p3.jpg"><p>similique sunt</p></div>
+        <div class="product"><img src="hinh/p4.jpg"><p>similique sunt</p></div>
+
+        <div class="product"><img src="hinh/p5.jpg"><p>Neque porro</p></div>
+        <div class="product"><img src="hinh/p6.jpg"><p>Neque porro</p></div>
+        <div class="product"><img src="hinh/p7.jpg"><p>similique sunt</p></div>
+        <div class="product"><img src="hinh/p8.jpg"><p>similique sunt</p></div>
+    </div>
+
+   
+    <div  class="map" >
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6632.506483317928!2d151.263862!3d-33.779958!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12abc7edcbeb07%3A0x5017d681632bfc0!2sManly%20Vale%20New%20South%20Wales%202093%2C%20%C3%9Ac!5e0!3m2!1svi!2sin!4v1652866371849!5m2!1svi!2sin" width="100%" height="700"></iframe>
+    </div>
+
+    <div class="footer">
+        © 2022 Thiết kế quản trị website CN20CD!
+    </div>
+
+</body>
+</html>
